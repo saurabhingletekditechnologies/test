@@ -141,18 +141,6 @@ Raw Activity Data
 
 ---
 
-## 📁 Key Files & Their Purpose
-
-| File | Purpose |
-|------|---------|
-| `engagementpredictorpreprocessing.py` | Cleans raw activity data |
-| `combined_data_for_a_user.py` | Connects responses to sessions |
-| `download_audios_from_s3.py` | Downloads audio files |
-| `batch_audio_analysis.py` | Analyzes audio with AI |
-| `final_with_feature_engineering.py` | Creates final engagement scores |
-
----
-
 ## 🎨 Visual System Flow
 
 ```mermaid
@@ -282,9 +270,3 @@ The Engagement Prediction System transforms raw learner activity into meaningful
 5. **Generates** actionable engagement scores
 
 The result helps understand how learners engage with different phases of the learning journey, enabling better educational outcomes.
-
----
-
-**Document Version**: 2.0  
-**Last Updated**: 2024  
-**Maintained By**: ALL Engagement Prediction Team
